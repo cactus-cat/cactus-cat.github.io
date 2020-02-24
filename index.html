@@ -1,18 +1,222 @@
 <!DOCTYPE html>
-
-<html>
+<html lang="en">
 <head>
-  <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
-  <title>my-first-website</title>
-  <LINK href="styles.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LTS notes</title>
 </head>
-
 <body>
+    <script>
+        function bruh(){
+            alert("bruh")
+        }
+    </script>
+    <style>
+      body {
+        background: url("https://miro.medium.com/max/3840/1*Nvhe7mchQmJBgyVx-uOBrA.png");
+        background-attachment: fixed;
+      }
+      #cool-look{
+          background-color: #ffffffe1;
+      }
+      #ES {
+          background: url("https://media.australianmuseum.net.au/media/dd/images/globe_east_2048.aa6c0d0.dd38f17c.fill-600x400.90adb4d.jpg");
+          background-size: cover;
+          background-repeat: no-repeat;
+          background-attachment: fixed;
 
-<img src="https://octodex.github.com/images/daftpunktocat-thomas.gif" id="octocat" alt="octocat-gif" />
+      }
+      #math {
+          background: url("https://www.ufv.ca/media/2015/headers/programs/science/Math_banner-4.jpg");
+          background-size: cover;
+          background-repeat: no-repeat;
+          background-attachment: fixed;
+      }
+      #bio {
+          background: url("https://carleton.ca/biology/wp-content/uploads/dna-3539309_1920-1-1.jpg");
+          background-size: cover;
+          background-repeat: no-repeat;
+          background-attachment: fixed;
+      }
+      #chem {
+          background: url("https://www.ucl.ac.uk/chemistry/sites/chemistry/files/research-home2.jpg");
+          background-size: cover;
+          background-repeat: no-repeat;
+          background-attachment: fixed;
+      }
+      #ET {
+          background: url("https://media.istockphoto.com/vectors/abstract-hexagon-background-technology-polygonal-concept-vector-id996971400");
+          background-size: cover;
+          background-repeat: no-repeat;
+          background-attachment: fixed;
+      }
+      #EnS {
+          background: url("https://images2.minutemediacdn.com/image/upload/c_crop,h_1351,w_2400,x_0,y_0/f_auto,q_auto,w_1100/v1571796144/shape/mentalfloss/604599-gettyimages-1083893950.jpg");
+          background-size: cover;
+          background-repeat: no-repeat;
+          background-attachment: fixed;
+      }
+      #phys {
+          background: url("https://physics.columbia.edu/sites/default/files/styles/cu_crop/public/content/physics-hero.jpg?itok=YhGdLAhM");
+          background-size: cover;
+          background-repeat: no-repeat;
+          background-attachment: fixed;
+      }
+      #SS {
+          background: url("https://blogs.esa.int/artscience/files/2016/10/M4_mission_themes.jpg");
+          background-size: cover;
+          background-repeat: no-repeat;
+          background-attachment: fixed;
+      }
+      nav {
+          background-color: #000000d0;
+      }
+      .jumbotron{
+          background-color: #fad3d328;
+      }
+    </style>
+    <nav class="navbar navbar-expand-lg fixed-top">
+        <a class="navbar-brand" href="#"><img src="images/lts.png" alt=""></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+                <a id="biol" class="btn btn-outline-success btn-lg ml-3 px-4" href="#bio">Biology</a>
+            </li>
+            <li class="nav-item">
+                <a id="chemi" class="btn btn-outline-success btn-lg ml-3 px-4" href="#chem">Chemistry</a>
+            </li>
+            <li class="nav-item dropdown">
+                <a id="earth" class="btn btn-outline-success btn-lg ml-3 px-4" href="#ES">Earth Sciences</a>
+            </li>
+            <li class="nav-item">
+                <a id="" class="btn btn-outline-success btn-lg ml-3 px-4" href="#ET">Engineering & Technology</a>
+            </li>
+            <li class="nav-item">
+                <a id="" class="btn btn-outline-success btn-lg ml-3 px-4" href="#EnS">Environmental Sciences</a>
+            </li>
+            <li class="nav-item">
+                <a id="" class="btn btn-outline-success btn-lg ml-3 px-4" href="#math">Mathematics</a>
+            </li>
+            <li class="nav-item">
+                <a id="" class="btn btn-outline-success btn-lg ml-3 px-4" href="#phys">Physics</a>
+            </li>
+            <li class="nav-item">
+                <a id="" class="btn btn-outline-success btn-lg ml-3 px-4" href="#SS">Space Sciences</a>
+            </li>
+          </ul>
+        </div>
+    </nav>
+    <div id="cool-look">
+        <section class="d-flex jumbotron center justify-content-center">
+            <h1 class="px-2 font-weight-light d-inline display-1">LTS notes for team AI</h1>
+        </section>
+        
+        <h1 id="bio" class="d-flex text-white justify-content-center mx-5 py-2 display-3 rounded-pill">Biology</h1>
+        <p class="mx-5 px-5">biology is the study of life called organisms organism can vary in size from single celled beings like bacteria or beings with multiple cells called multicellular like us
+        
+        <h1 id="chem" class="d-flex justify-content-center  mx-5 py-2 display-3 rounded-pill">Chemistry</h1>
+        <p class="mx-5 px-5">There are 5 states of matter if you heat each state it will become the next state<br>
+            <ol class="mx-5 px-5">
+                <li>BEO(Bose Einstein Condensate): gas frozen to near 0 Kelvin</li>
+                <li>Solid: the forces keeping the particles together are relatively strong and particles stay very close together so they are hard and rigid</li>
+                <li>Liquid: the forces that hold the particles together are weaker than in solids they can flow around in a container</li>
+                <li>Gases: often invisible but everywhere the forces are weaker than solid or liquid you can sense them though some are lethal and some are for helping humans
+                    <ul>
+                        <li>Elemental Gases – gases that consist of one Element(listed below)</li>
+                        <img class="d-block" src="images/elemental.jpg" alt="">
+                        <li>Diatomic Gases – the basic unit is a molecule of two atoms joined together</li>
+                        <li>Monatomic Gases – the basic unit is one atom</li>
+                        <img src="images/compound.jpg" alt="">
+                        <li>Compound Gases – made from more than one element</li>
+                        <br>
+                        <li>Kinetic Molecular Theory of Gases
+                            <ol>
+                                <img src="images/pressure.jpg" alt=""><strong> img-chem-5</strong> pressure in a container
+                                <li>Molecules are always moving in a straight line until they collide with other or into walls</li>
+                                <li>Energy is not lost when a particle collides in the molecule world – elastic collision<br>
+                                    In the human world collisions lose energy because of friction – inelastic collision
+                                </li>
+                                <li>a single particle of gas is nothing compared to the space it takes as a gas it take such little space that it isn't considered as matter</li>
+                                <li>the particles of gas don't attract each other due to the fact that they are so far away from each other</li>
+                            </ol>
+                            <br>
+                            <li>This explains pressure, the force of the collisions of lots of molecules hitting the walls is called pressure.<br>
+                                if the pressure has too much stress on the container it will cause an explosion which is a rapid expantion of gas as shown in img-chem-5
+                            </li>
+                            <br>
+                            <p>All of a gas's energy is in the form of kinetic energy(energy from movement).<br>
+                                According to the Kinetic Molecular Theory, molecules do not lose energy when they collide, this means the usual kinetic energy of the molecules stays the same.<br>
+                                Any change in kinetic energy is followed by a change in temperature and when there is a change in the temperature, there is a change in the kinetic energy.
+                            </p>
+                        </li>
+                        <p>Units for Measuring Gases</p>
+                        <ul>
+                            <li>Volume – Capacity Units(amount of space a gas takes)
+                                <ul>
+                                    <li>mL(millilitres)</li>
+                                    <li>L(litres)</li>
+                                    <li>small amounts – µL(microlitres)</li>
+                                    <li>large amounts – kL(kilolitres)</li>
+                                </ul>
+                            </li>
+                            <br>
+                            <li>Temperature
+                                <ul>
+                                    <img src="images/temp.jpg" alt="">
+                                    <li>Celsius Scale
+                                        <ul>
+                                            <li>Named after a Swedish astronomer – Anders Celsius</li>
+                                            <li>Used in day-to-day life for temperature</li>
+                                            <li>In the metric system</li>
+                                            <li>Originaly based off water because people wanted to know when water changed state(from solid to liquid ext.) so it works for liquids but not gas</li>
+                                        </ul>
+                                    </li>
+                                    <br>
+                                    <li>Fahrenheit scale
+                                        <ul>
+                                            <li>In the imperial system</li>
+                                            <li>Originaly based off water because people wanted to know when water changed state(from solid to liquid ext.) so it works for liquids but not gas</li>
+                                        </ul>
+                                        <br>
+                                        <p>The reason these two scales don't work is because kinetic energy is related to temperature and is something is at 0℃ or 0℉ that dosen't mean it has no kinetic energy</p>
+                                        <p>So there is a unit of mesurement in which 0 means no kinetic energy(no movement between particles): K(Kelvin or absolute temprature scale)</p>
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </ul>
+                </li>
+                <li>Plasma(Fifth state of matter)</li>
+            </ol>
+        </p>
+        
+        <h1 id="ES" class="d-flex text-white justify-content-center mx-5 py-2 display-3 rounded-pill bg-brown">Earth Sciences</h1>
+        <p class="mx-5 px-5"></p>
 
-<!-- Change this code here by copy and pasting your template on line 15 -->
-<p>Welcome to your first GitHub Pages website!</p>
+        <h1 id="ET" class="d-flex text-black justify-content-center mx-5 py-2 display-3 rounded-pill">Engineering & Technology</h1>
+        <p class="mx-5 px-5"></p>
 
+        <h1 id="EnS" class="d-flex text-white justify-content-center mx-5 py-2 display-3 rounded-pill">Environmental Sciences</h1>
+        <p class="mx-5 px-5"></p>
+        
+        <h1 id="math" class="d-flex text-white justify-content-center mx-5 py-2 display-3 rounded-pill bg-pink">Mathematics</h1>
+        <p class="mx-5 px-5"></p>
+        
+        <h1 id="phys" class="d-flex text-white justify-content-center mx-5 py-2 display-3 rounded-pill">Physics</h1>
+        <p class="mx-5 px-5"></p>
+        
+        <h1 id="SS" class="d-flex text-white justify-content-center mx-5 py-2 display-3 rounded-pill">Space Sciences</h1>
+        <p class="mx-5 px-5"></p>
+
+        <button onclick="bruh()" class="btn btn-outline-success mx-5 px-5 btn-lg">bruh button</button>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
 </body>
 </html>
