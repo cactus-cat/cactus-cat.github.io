@@ -1,0 +1,62 @@
+body {
+    background: url("https://miro.medium.com/max/3840/1*Nvhe7mchQmJBgyVx-uOBrA.png");
+    background-attachment: fixed;
+}
+#cool-look{
+    background-color: #ffffffd3;
+}
+#ES {
+    background: url("https://media.australianmuseum.net.au/media/dd/images/globe_east_2048.aa6c0d0.dd38f17c.fill-600x400.90adb4d.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+}
+#math {
+    background: url("https://www.ufv.ca/media/2015/headers/programs/science/Math_banner-4.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+#bio {
+    background: url("https://carleton.ca/biology/wp-content/uploads/dna-3539309_1920-1-1.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+#chem {
+    background: url("https://www.ucl.ac.uk/chemistry/sites/chemistry/files/research-home2.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+#ET {
+    background: url("https://media.istockphoto.com/vectors/abstract-hexagon-background-technology-polygonal-concept-vector-id996971400");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+#EnS {
+    background: url("https://images2.minutemediacdn.com/image/upload/c_crop,h_1351,w_2400,x_0,y_0/f_auto,q_auto,w_1100/v1571796144/shape/mentalfloss/604599-gettyimages-1083893950.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+#phys {
+    background: url("https://physics.columbia.edu/sites/default/files/styles/cu_crop/public/content/physics-hero.jpg?itok=YhGdLAhM");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+#SS {
+    background: url("https://blogs.esa.int/artscience/files/2016/10/M4_mission_themes.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+nav {
+    background-color: #000000be;
+}
+.jumbotron{
+    background-color: #fad3d328;
+}
