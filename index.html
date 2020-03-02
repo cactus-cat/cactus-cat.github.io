@@ -12,7 +12,7 @@
             background-attachment: fixed;
         }
         #cool-look{
-            background-color: #ffffffe7;
+            background-color: #ffffffe3;
         }
         #ES {
             background: url("https://media.australianmuseum.net.au/media/dd/images/globe_east_2048.aa6c0d0.dd38f17c.fill-600x400.90adb4d.jpg");
@@ -64,50 +64,53 @@
             background-attachment: fixed;
         }
         nav {
-            background-color: #000000;
+            background-color: #ffffff;
+            border: 3px solid rgba(0, 255, 55, 0.185);
         }
         .jumbotron{
+            background-color: #fad3d3;
+        }
+        html {
+            scroll-behavior: smooth;
+        }
+        .bg-red {
             background-color: #fad3d3;
         }
     </style>
 </head>
 <body>
-    <script src="https://kit.fontawesome.com/4e29e18392.js" crossorigin="anonymous"></script>
-
-    <nav class="navbar bg-light navbar-light fixed-top">
-        <a class="navbar-brand" href="#">LTS</a>
-        <button class="p-0 btn btn-outline-danger navbar-toggler navbar-toggler-center" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <nav class="p-3 rounded-pill container navbar navbar-light fixed-top">
+        <a class="text-center py-1 mx-5 navbar-brand btn bg-red" href="#"><i class="fas fa-angle-double-up"></i></a>
+        <button class="py-2 text-center navbar-toggler mx-5 btn bg-red" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <i class="fas fa-angle-double-down"></i>
-            <h6>chapters</h6>
         </button>
-        
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="d-inline navbar-nav mr-auto">
-            <li class="nav-item active">
-                <a id="biol" class="btn btn-outline-success btn-lg m-2 px-4" href="#bio">Biology</a>
-            </li>
-            <li class="nav-item">
-                <a id="chemi" class="btn btn-outline-success btn-lg m-2 px-4" href="#chem">Chemistry</a>
-            </li>
-            <li class="nav-item dropdown">
-                <a id="earth" class="btn btn-outline-success btn-lg m-2 px-4" href="#ES">Earth Sciences</a>
-            </li>
-            <li class="nav-item">
-                <a id="" class="btn btn-outline-success btn-lg m-2 px-4" href="#ET">Engineering & Technology</a>
-            </li>
-            <li class="nav-item">
-                <a id="" class="btn btn-outline-success btn-lg m-2 px-4" href="#EnS">Environmental Sciences</a>
-            </li>
-            <li class="nav-item">
-                <a id="" class="btn btn-outline-success btn-lg m-2 px-4" href="#math">Mathematics</a>
-            </li>
-            <li class="nav-item">
-                <a id="" class="btn btn-outline-success btn-lg m-2 px-4" href="#phys">Physics</a>
-            </li>
-            <li class="nav-item">
-                <a id="" class="btn btn-outline-success btn-lg m-2 px-4" href="#SS">Space Sciences</a>
-            </li>
-          </ul>
+        <div class="text-center collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="d-inline navbar-nav">
+                <li class="nav-item">
+                    <a class="btn btn-outline-success btn-lg m-2 px-4" href="#bio">Biology</a>
+                </li>
+                <li class="nav-item">
+                    <a class="btn btn-outline-success btn-lg m-2 px-4" href="#chem">Chemistry</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="btn btn-outline-success btn-lg m-2 px-4" href="#ES">Earth Sciences</a>
+                </li>
+                <li class="nav-item">
+                    <a class="btn btn-outline-success btn-lg m-2 px-4" href="#ET">Engineering & Technology</a>
+                </li>
+                <li class="nav-item">
+                    <a class="btn btn-outline-success btn-lg m-2 px-4" href="#EnS">Environmental Sciences</a>
+                </li>
+                <li class="nav-item">
+                    <a class="btn btn-outline-success btn-lg m-2 px-4" href="#math">Mathematics</a>
+                </li>
+                <li class="nav-item">
+                    <a class="btn btn-outline-success btn-lg m-2 px-4" href="#phys">Physics</a>
+                </li>
+                <li class="nav-item">
+                    <a class="btn btn-outline-success btn-lg m-2 px-4" href="#SS">Space Sciences</a>
+                </li>
+            </ul>
         </div>
     </nav>
     <div id="cool-look">
@@ -116,7 +119,7 @@
         </section>
         
         <h1 id="bio" class="d-flex text-white justify-content-center mx-5 py-2 display-3 rounded-pill">Biology</h1>
-        <p class="mx-5 px-5">Biology is the study of life known as organisms. Organism can vary in size from single celled beings like bacteria to beings with multiple cells called multicellular like us
+        <p class="mx-5 px-5">biology is the study of life called organisms organism can vary in size from single celled beings like bacteria or beings with multiple cells called multicellular like us
         
         <h1 id="chem" class="d-flex justify-content-center  mx-5 py-2 display-3 rounded-pill">Chemistry</h1>
         <p class="mx-5 px-5">There are 5 states of matter if you heat each state it will become the next state<br>
@@ -124,7 +127,8 @@
                 <li>BEO(Bose Einstein Condensate): gas frozen to near 0 Kelvin</li>
                 <li>Solid: the forces keeping the particles together are relatively strong and particles stay very close together so they are hard and rigid</li>
                 <li>Liquid: the forces that hold the particles together are weaker than in solids they can flow around in a container</li>
-                <li>Gases: often invisible but everywhere the forces are weaker than solid or liquid you can sense them though some are lethal and some are for helping humans
+                <li>Gases: often invisible but everywhere the forces are weaker than solid or liquid you can sense them though some are lethal and some are for helping humans</li>
+                <li>Plasma(Fifth state of matter)</li>
                     <ul>
                         <li>Elemental Gases – gases that consist of one Element(listed below)</li>
                         <img class="d-block" src="images/elemental.jpg" alt="">
@@ -184,27 +188,40 @@
                                         <li>In the imperial system</li>
                                         <li>Originaly based off water because people wanted to know when water changed state(from solid to liquid ext.) so it works for liquids but not gas</li>
                                     </ul>
-                                    <br>
-                                    <p>The reason these two scales don't work is because kinetic energy is related to temperature and is something is at 0℃ or 0℉ that dosen't mean it has no kinetic energy</p>
-                                    <li>So there is a unit of mesurement in which 0 means no kinetic energy(no movement between particles): K(Kelvin or absolute temprature scale).
-                                        <ul>
-                                            <li>Named after Lord Kelvin of England</li>
-                                            <li>0 kelvin(absolute zero) is the lowest temprature</li>
-                                            <li>No degree sign so the freezing point of water is 0℃ or 273.15 K</li>
-                                            <li>Add 273.15 to Celsius to get Kelvin equivilent</li>
-                                        </ul>
-                                    </li>
-                                    <li>In 1970's the metric system was used in Canada for scientific research</li>
+                                </li>
+                                <br>
+                                <p>The reason these two scales don't work is because kinetic energy is related to temperature and is something is at 0℃ or 0℉ that dosen't mean it has no kinetic energy</p>
+                                <li>So there is a unit of mesurement in which 0 means no kinetic energy(no movement between particles): K(Kelvin or absolute temprature scale).
+                                    <ul>
+                                        <li>Named after Lord Kelvin of England</li>
+                                        <li>0 kelvin(absolute zero) is the lowest temprature</li>
+                                        <li>No degree sign so the freezing point of water is 0℃ or 273.15 K</li>
+                                        <li>Add 273.15 to Celsius to get Kelvin equivilent</li>
+                                    </ul>
+                                </li>
+                                <li>In 1970's the metric system was used in Canada for scientific research</li>
+                                <br>
+                                <li>Preasure
+                                    <ul>
+                                        <li>Preasure is basicly force being exerted onto a part of a wall.<br>
+                                            This can be represented in an equation like this: P = F/A.<br>
+                                            <ul>
+                                                <li>P = pressure</li>
+                                                <li>F = force in newtons(N)</li>
+                                                <li>A = area in square meters(m<sup>2</sup>)</li>
+                                                <li>so preasure can also be stated like: N/m<sup>2</sup></li>
+                                            </ul>
+                                        </li>
+                                    </ul>
                                 </li>
                             </ul>
                         </li>
                     </ul>
                 </li>
-                <li>Plasma(Fifth state of matter)</li>
             </ol>
         </p>
         
-        <h1 id="ES" class="d-flex text-white justify-content-center mx-5 py-2 display-3 rounded-pill bg-brown">Earth Sciences</h1>
+        <h1 id="ES" class="d-flex text-white justify-content-center mx-5 py-2 display-3 rounded-pill">Earth Sciences</h1>
         <p class="mx-5 px-5"></p>
 
         <h1 id="ET" class="d-flex text-black justify-content-center mx-5 py-2 display-3 rounded-pill">Engineering & Technology</h1>
@@ -213,7 +230,7 @@
         <h1 id="EnS" class="d-flex text-white justify-content-center mx-5 py-2 display-3 rounded-pill">Environmental Sciences</h1>
         <p class="mx-5 px-5"></p>
         
-        <h1 id="math" class="d-flex text-white justify-content-center mx-5 py-2 display-3 rounded-pill bg-pink">Mathematics</h1>
+        <h1 id="math" class="d-flex text-white justify-content-center mx-5 py-2 display-3 rounded-pill">Mathematics</h1>
         <p class="mx-5 px-5"></p>
         
         <h1 id="phys" class="d-flex text-white justify-content-center mx-5 py-2 display-3 rounded-pill">Physics</h1>
@@ -225,5 +242,6 @@
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/4e29e18392.js" crossorigin="anonymous"></script>
 </body>
 </html>
